@@ -1,0 +1,18 @@
+.link{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+.border:hover{
+    color: #fff;
+    box-shadow: 0px 0px 10px #fff inset;
+    background-color: #5FA59B;
+}
+.border{
+    background-color: #fff;
+    color: #5FA59B;
+    border: 2px #5FA59B solid;
+    padding: 25px;
+    border-radius: 30px;
+    width: 12em;
+}
