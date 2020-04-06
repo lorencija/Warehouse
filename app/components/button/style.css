@@ -1,0 +1,14 @@
+.button:hover{
+    background-color: #5FA59B;
+    color: #fff;
+    font-weight: 700;
+}
+.red{
+    background-color: #f5b5b5;
+}
+.blue{
+    background-color: #97b0cc; 
+}
+.green{
+    background-color: #d3e6e3;
+}

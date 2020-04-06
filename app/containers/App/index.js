@@ -1,18 +1,17 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
-import HomePage from 'containers/HomePage/Loadable';
-import Products from 'containers/Products/Loadable';
-import NotFoundPage from 'containers/NotFoundPage/Loadable';
 import Footer from '../../components/footer';
 import Header from '../../components/header';
 import Main from '../../components/main';
-import Style from './style.css';
+import HomePage from '../HomePage/Loadable';
+import Products from '../Products/Loadable';
+import NotFoundPage from '../NotFoundPage/Loadable';
 
 // import GlobalStyle from '../../global-styles';
 
 export default function App() {
   return (
-    <div className={Style.main_content}>
+    <div>
       <Header />
       <Main>
         <Switch>

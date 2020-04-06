@@ -5,5 +5,10 @@ import StyledLink from '../../components/styledLink';
 // import messages from './messages';
 
 export default function HomePage() {
-  return <StyledLink link="/products" text="Ikea Products List" />;
+  return (
+    <>
+      <StyledLink link="/products" text="Ikea Products List" />
+      <StyledLink link="/products" text="Eoltas Products List" />
+    </>
+  );
 }

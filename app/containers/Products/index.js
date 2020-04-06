@@ -1,10 +1,11 @@
 import React from 'react';
-import Typography from '@material-ui/core/Typography';
-
+import StyledTitle from '../../components/StyledTitle';
+import SimpleTable from '../../components/table';
 export default function Products() {
   return (
-    <Typography component="h2" variant="h4" align="center">
-      Ikea Products List
-    </Typography>
+    <>
+      <StyledTitle>Ikea Products List</StyledTitle>
+      <SimpleTable />
+    </>
   );
 }

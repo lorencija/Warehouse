@@ -1,0 +1,21 @@
+.table_header{
+    background-color: #d3e6e3;
+}
+
+.row{
+display: flex;
+flex-direction: row;
+}
+
+.checkbox:active{
+    color: #5FA59B;
+}
+
+@media screen and (max-width:1030px){
+    th {
+        min-width: 135px;
+        overflow-x: auto;
+        /* white-space: nowrap; */
+      }
+}
+
